@@ -72,13 +72,10 @@ input[type="text"]::placeholder {
     line-height: 24px;
     text-decoration: none;    
 }
-.top__link-catalog{
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration: underline;
+.header__link-cart{
+    position: relative;
 }
+@import "_cart-main";
 .top__heading{
     height: 140px;
     font-size: 64px;
