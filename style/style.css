@@ -9,8 +9,8 @@ a {
 }
 a:hover {
   transform: scale(1.1);
-  text-decoration: underline;
-  color: #b70404;
+  text-decoration: none;
+  color: rgb(136, 136, 136);
 }
 
 .center {
@@ -457,12 +457,16 @@ input[type=text]::placeholder {
   gap: 12px;
 }
 
-.footer__logos {
+.footer__logos-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 104px;
   height: 18px;
+}
+
+.footer__logos:hover {
+  filter: brightness(0) saturate(100%);
 }
 
 .footer__news {
@@ -1492,6 +1496,9 @@ input[type=range]::-webkit-slider-thumb {
   .header__menu-mob {
     display: flex;
     gap: 32px;
+  }
+  .cart-main {
+    display: none;
   }
   .top__heading {
     text-align: center;

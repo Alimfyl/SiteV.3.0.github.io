@@ -6,9 +6,8 @@
 a{
     transition: all 1s;
     &:hover{
-        transform: scale(1.1);
-        text-decoration: underline;
-        color: #b70404;
+        text-decoration: none;
+        color: rgba(136, 136, 136, 1);
 
     }
 }
@@ -270,12 +269,15 @@ input[type="text"]::placeholder {
     flex-direction: column;
     gap: 12px;
 }
-.footer__logos{
+.footer__logos-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 104px;
     height: 18px;
+}
+.footer__logos:hover {
+    filter: brightness(0) saturate(100%)
 }
 .footer__news{
     display: flex;
