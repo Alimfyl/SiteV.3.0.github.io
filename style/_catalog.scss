@@ -130,6 +130,7 @@ input[type="text"]::placeholder {
   line-height: 20px;
 }
 .filtering-form {
+  z-index: 1;
   position: absolute;
   top: calc(100% + 14px);
   right: 0; 

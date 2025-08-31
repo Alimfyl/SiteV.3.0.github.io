@@ -305,6 +305,7 @@ input[type="text"]::placeholder {
     text-decoration: none;
 }
 .footer__link:hover{
+    color: rgba(0, 0, 0, 1);
     text-decoration: underline;
 }
 .footer__text{
@@ -342,10 +343,11 @@ input[type="email"]::placeholder {
     line-height: 15px ;
     color: #000000;
     &:hover{
-        transform: scale(1.025)
+        color: rgba(255, 255, 255, 1);
+        background: rgba(0, 0, 0, 1);
     }
 }
-
+@import "_card-experement";
 @import "_cart";
 @import "_catalog";
 @import "_table";

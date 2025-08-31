@@ -1,0 +1,19 @@
+.catalog__product{
+    position:relative;
+    &:hover .catalog__shoping{
+        display: block;
+    }
+}
+
+.catalog__shoping{
+    display: none;
+}
+.catalog__shoping-box{
+    display: flex;
+    gap: 21px;
+    position: absolute;
+    left: 300px;
+}
+.catalog__shoping-img{
+    color: rgba(196, 196, 196, 1);
+}
