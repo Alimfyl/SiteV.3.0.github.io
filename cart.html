@@ -10,7 +10,9 @@
 <body>
    <div class="top-cart center">
      <header class="header">
+        <a href="index.html">
         <img class="header__img" src="img/logo1.svg" alt="Логотип">
+        </a>
         <input type="text" class="header__search" placeholder="Поиск" >
         <nav class="header__title">
             <ul class="header__list">
@@ -93,22 +95,24 @@
             <button class="cart__button">
                 <p>Очистить корзину</p>
             </button>
+            <a href="catalog.html">
             <button class="cart__button cart__button-continue">
                 <p>Продолжить покупки</p>
             </button>
+            </a>
             </div>
         </div>
-        <div class="cart__placing">
+        <form class="cart__placing">
             <h3 class="cart__placing-text">Оформление заказа</h3>
             <div class="cart__border-box">
-            <input class="cart__border cart__border-user" type="user" name="username" placeholder="Имя Фамилия" id="name">
-            <input class="cart__border" type="tel" name="tel" placeholder="+ 7 904 000 80 80" id="tel">
-            <input class="cart__border" type="text" name="address" placeholder="Адрес доставки" id="address">
+            <input class="cart__border cart__border-user" type="user" required name="username" placeholder="Имя Фамилия" id="name">
+            <input class="cart__border" type="tel" required name="tel" placeholder="+ 7 904 000 80 80" id="tel">
+            <input class="cart__border" type="text" required name="address" placeholder="Адрес доставки" id="address">
             </div>
             <p class="cart__total"><span class="cart__total-low">Итого: </span>128 000 руб.</p>
             <button class="cart__arrange" type="button">Оформить заказ</button>
 
-        </div>
+        </form>
     </section>
     
     <section class="special center">
@@ -156,7 +160,7 @@
         <ul class="footer__list">
             <li><a href="index.html" class="footer__link">Главная</a></li>
             <li><a href="catalog.html" class="footer__link">Каталог</a></li>
-            <li><a href="#" class="footer__link">Корзина</a></li>
+            <li><a href="cart.html" class="footer__link">Корзина</a></li>
         </ul>
     </nav>
     </div>

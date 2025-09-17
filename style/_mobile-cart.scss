@@ -9,6 +9,10 @@
         }
     }
     .cart{
+        &__product-box{
+            min-width: 343px;
+            max-height: 167px;
+        }
         &__heading{
             font-size: 18px;
             font-weight: 500;

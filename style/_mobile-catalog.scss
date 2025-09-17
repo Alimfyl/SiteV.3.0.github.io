@@ -42,5 +42,16 @@
             font-weight: 500;
             line-height: 22px;
         }
+        
+    }
+    .filtering-form{
+        max-height: 910px;
+        min-width: 190.5px;
+        right: -122.5px;
+        &__content-wrapper{
+            max-height: 830px;
+            min-width: 190.5px;
+           
+        }
     }
 }
